@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842E6FA61E933EA60029F2B5 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E6FA51E933EA60029F2B5 /* ShopViewController.m */; };
+		842E6FA81E933FCE0029F2B5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842E6FA71E933FCE0029F2B5 /* WebKit.framework */; };
+		848227D21E84039A00711F72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848227D11E84039A00711F72 /* main.m */; };
+		848227D51E84039A00711F72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848227D41E84039A00711F72 /* AppDelegate.m */; };
+		848227DB1E84039A00711F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848227D91E84039A00711F72 /* Main.storyboard */; };
+		848227DD1E84039A00711F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848227DC1E84039A00711F72 /* Assets.xcassets */; };
+		848227E01E84039A00711F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848227DE1E84039A00711F72 /* LaunchScreen.storyboard */; };
+		848227EB1E84039A00711F72 /* cloud_fontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848227EA1E84039A00711F72 /* cloud_fontTests.m */; };
+		848227F61E84039A00711F72 /* cloud_fontUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848227F51E84039A00711F72 /* cloud_fontUITests.m */; };
+		848228071E84090F00711F72 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848228061E84090F00711F72 /* HomeViewController.m */; };
+		8482280A1E8415E500711F72 /* BackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848228091E8415E500711F72 /* BackgroundViewController.m */; };
+		8482280E1E8417AE00711F72 /* BackgroundCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8482280D1E8417AE00711F72 /* BackgroundCollectionViewCell.m */; };
+		848258AF1E8439950013C09D /* SizeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258AE1E8439950013C09D /* SizeTableViewCell.m */; };
+		848258B21E843EF40013C09D /* SizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258B11E843EF40013C09D /* SizeViewController.m */; };
+		848258B51E844B1A0013C09D /* DesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258B41E844B1A0013C09D /* DesignViewController.m */; };
+		848258B81E84629B0013C09D /* InputTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258B71E84629B0013C09D /* InputTextViewController.m */; };
+		848258CF1E84AA530013C09D /* CloudLayoutOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258BB1E84AA530013C09D /* CloudLayoutOperation.m */; };
+		848258D11E84AA530013C09D /* QuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258BF1E84AA530013C09D /* QuadTree.m */; };
+		848258D21E84AA530013C09D /* _LALTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258C21E84AA530013C09D /* _LALTopic.m */; };
+		848258D31E84AA530013C09D /* _LALVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258C41E84AA530013C09D /* _LALVersion.m */; };
+		848258D41E84AA530013C09D /* _LALWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258C61E84AA530013C09D /* _LALWord.m */; };
+		848258D51E84AA530013C09D /* CloudWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258C81E84AA530013C09D /* CloudWord.m */; };
+		848258D61E84AA530013C09D /* LALTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258CA1E84AA530013C09D /* LALTopic.m */; };
+		848258D71E84AA530013C09D /* LALVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258CC1E84AA530013C09D /* LALVersion.m */; };
+		848258D81E84AA530013C09D /* LALWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258CE1E84AA530013C09D /* LALWord.m */; };
+		848258DE1E84AABA0013C09D /* UIColor+CloudSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258DB1E84AABA0013C09D /* UIColor+CloudSettings.m */; };
+		848258DF1E84AABA0013C09D /* UIFont+CloudSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258DD1E84AABA0013C09D /* UIFont+CloudSettings.m */; };
+		848258E21E84BE840013C09D /* ChooseFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258E11E84BE840013C09D /* ChooseFontViewController.m */; };
+		848258E71E8521EF0013C09D /* RGSColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258E41E8521EF0013C09D /* RGSColorSlider.m */; };
+		848258E81E8521EF0013C09D /* RGSPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258E61E8521EF0013C09D /* RGSPreviewView.m */; };
+		848258EB1E85236B0013C09D /* ChooseColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258EA1E85236B0013C09D /* ChooseColorViewController.m */; };
+		848258EE1E854DFA0013C09D /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848258ED1E854DFA0013C09D /* ShareViewController.m */; };
+		848258F11E855F940013C09D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848258F01E855F940013C09D /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848227E71E84039A00711F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848227C51E84039A00711F72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848227CC1E84039A00711F72;
+			remoteInfo = "cloud font";
+		};
+		848227F21E84039A00711F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848227C51E84039A00711F72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848227CC1E84039A00711F72;
+			remoteInfo = "cloud font";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842E6FA41E933EA60029F2B5 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		842E6FA51E933EA60029F2B5 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		842E6FA71E933FCE0029F2B5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		848227CD1E84039A00711F72 /* cloud font.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cloud font.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848227D11E84039A00711F72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		848227D31E84039A00711F72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		848227D41E84039A00711F72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		848227DA1E84039A00711F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848227DC1E84039A00711F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848227DF1E84039A00711F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848227E11E84039A00711F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848227E61E84039A00711F72 /* cloud fontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cloud fontTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848227EA1E84039A00711F72 /* cloud_fontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cloud_fontTests.m; sourceTree = "<group>"; };
+		848227EC1E84039A00711F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848227F11E84039A00711F72 /* cloud fontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cloud fontUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848227F51E84039A00711F72 /* cloud_fontUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cloud_fontUITests.m; sourceTree = "<group>"; };
+		848227F71E84039A00711F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848228051E84090F00711F72 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		848228061E84090F00711F72 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		848228081E8415E500711F72 /* BackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundViewController.h; sourceTree = "<group>"; };
+		848228091E8415E500711F72 /* BackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundViewController.m; sourceTree = "<group>"; };
+		8482280C1E8417AE00711F72 /* BackgroundCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundCollectionViewCell.h; sourceTree = "<group>"; };
+		8482280D1E8417AE00711F72 /* BackgroundCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundCollectionViewCell.m; sourceTree = "<group>"; };
+		848258AD1E8439950013C09D /* SizeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeTableViewCell.h; sourceTree = "<group>"; };
+		848258AE1E8439950013C09D /* SizeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeTableViewCell.m; sourceTree = "<group>"; };
+		848258B01E843EF40013C09D /* SizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeViewController.h; sourceTree = "<group>"; };
+		848258B11E843EF40013C09D /* SizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeViewController.m; sourceTree = "<group>"; };
+		848258B31E844B1A0013C09D /* DesignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignViewController.h; sourceTree = "<group>"; };
+		848258B41E844B1A0013C09D /* DesignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignViewController.m; sourceTree = "<group>"; };
+		848258B61E84629B0013C09D /* InputTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTextViewController.h; sourceTree = "<group>"; };
+		848258B71E84629B0013C09D /* InputTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTextViewController.m; sourceTree = "<group>"; };
+		848258BA1E84AA530013C09D /* CloudLayoutOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudLayoutOperation.h; sourceTree = "<group>"; };
+		848258BB1E84AA530013C09D /* CloudLayoutOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudLayoutOperation.m; sourceTree = "<group>"; };
+		848258BE1E84AA530013C09D /* QuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadTree.h; sourceTree = "<group>"; };
+		848258BF1E84AA530013C09D /* QuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadTree.m; sourceTree = "<group>"; };
+		848258C11E84AA530013C09D /* _LALTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LALTopic.h; sourceTree = "<group>"; };
+		848258C21E84AA530013C09D /* _LALTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LALTopic.m; sourceTree = "<group>"; };
+		848258C31E84AA530013C09D /* _LALVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LALVersion.h; sourceTree = "<group>"; };
+		848258C41E84AA530013C09D /* _LALVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LALVersion.m; sourceTree = "<group>"; };
+		848258C51E84AA530013C09D /* _LALWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LALWord.h; sourceTree = "<group>"; };
+		848258C61E84AA530013C09D /* _LALWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LALWord.m; sourceTree = "<group>"; };
+		848258C71E84AA530013C09D /* CloudWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudWord.h; sourceTree = "<group>"; };
+		848258C81E84AA530013C09D /* CloudWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudWord.m; sourceTree = "<group>"; };
+		848258C91E84AA530013C09D /* LALTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LALTopic.h; sourceTree = "<group>"; };
+		848258CA1E84AA530013C09D /* LALTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LALTopic.m; sourceTree = "<group>"; };
+		848258CB1E84AA530013C09D /* LALVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LALVersion.h; sourceTree = "<group>"; };
+		848258CC1E84AA530013C09D /* LALVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LALVersion.m; sourceTree = "<group>"; };
+		848258CD1E84AA530013C09D /* LALWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LALWord.h; sourceTree = "<group>"; };
+		848258CE1E84AA530013C09D /* LALWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LALWord.m; sourceTree = "<group>"; };
+		848258DA1E84AABA0013C09D /* UIColor+CloudSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CloudSettings.h"; sourceTree = "<group>"; };
+		848258DB1E84AABA0013C09D /* UIColor+CloudSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CloudSettings.m"; sourceTree = "<group>"; };
+		848258DC1E84AABA0013C09D /* UIFont+CloudSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CloudSettings.h"; sourceTree = "<group>"; };
+		848258DD1E84AABA0013C09D /* UIFont+CloudSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CloudSettings.m"; sourceTree = "<group>"; };
+		848258E01E84BE840013C09D /* ChooseFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseFontViewController.h; sourceTree = "<group>"; };
+		848258E11E84BE840013C09D /* ChooseFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseFontViewController.m; sourceTree = "<group>"; };
+		848258E31E8521EF0013C09D /* RGSColorSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGSColorSlider.h; sourceTree = "<group>"; };
+		848258E41E8521EF0013C09D /* RGSColorSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGSColorSlider.m; sourceTree = "<group>"; };
+		848258E51E8521EF0013C09D /* RGSPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGSPreviewView.h; sourceTree = "<group>"; };
+		848258E61E8521EF0013C09D /* RGSPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGSPreviewView.m; sourceTree = "<group>"; };
+		848258E91E85236B0013C09D /* ChooseColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseColorViewController.h; sourceTree = "<group>"; };
+		848258EA1E85236B0013C09D /* ChooseColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseColorViewController.m; sourceTree = "<group>"; };
+		848258EC1E854DFA0013C09D /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		848258ED1E854DFA0013C09D /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		848258F01E855F940013C09D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848227CA1E84039A00711F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842E6FA81E933FCE0029F2B5 /* WebKit.framework in Frameworks */,
+				848258F11E855F940013C09D /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848227E31E84039A00711F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848227EE1E84039A00711F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848227C41E84039A00711F72 = {
+			isa = PBXGroup;
+			children = (
+				848227CF1E84039A00711F72 /* cloud font */,
+				848227E91E84039A00711F72 /* cloud fontTests */,
+				848227F41E84039A00711F72 /* cloud fontUITests */,
+				848227CE1E84039A00711F72 /* Products */,
+				848258EF1E855F940013C09D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		848227CE1E84039A00711F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848227CD1E84039A00711F72 /* cloud font.app */,
+				848227E61E84039A00711F72 /* cloud fontTests.xctest */,
+				848227F11E84039A00711F72 /* cloud fontUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848227CF1E84039A00711F72 /* cloud font */ = {
+			isa = PBXGroup;
+			children = (
+				848258D91E84AABA0013C09D /* Categories */,
+				848258B91E84AA530013C09D /* Helpers */,
+				848258C01E84AA530013C09D /* Models */,
+				848228041E8408AB00711F72 /* Cells */,
+				848228031E8408A200711F72 /* ViewControllers */,
+				848227D31E84039A00711F72 /* AppDelegate.h */,
+				848227D41E84039A00711F72 /* AppDelegate.m */,
+				848227D91E84039A00711F72 /* Main.storyboard */,
+				848227DC1E84039A00711F72 /* Assets.xcassets */,
+				848227DE1E84039A00711F72 /* LaunchScreen.storyboard */,
+				848227E11E84039A00711F72 /* Info.plist */,
+				848227D01E84039A00711F72 /* Supporting Files */,
+			);
+			path = "cloud font";
+			sourceTree = "<group>";
+		};
+		848227D01E84039A00711F72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				848227D11E84039A00711F72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		848227E91E84039A00711F72 /* cloud fontTests */ = {
+			isa = PBXGroup;
+			children = (
+				848227EA1E84039A00711F72 /* cloud_fontTests.m */,
+				848227EC1E84039A00711F72 /* Info.plist */,
+			);
+			path = "cloud fontTests";
+			sourceTree = "<group>";
+		};
+		848227F41E84039A00711F72 /* cloud fontUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848227F51E84039A00711F72 /* cloud_fontUITests.m */,
+				848227F71E84039A00711F72 /* Info.plist */,
+			);
+			path = "cloud fontUITests";
+			sourceTree = "<group>";
+		};
+		848228031E8408A200711F72 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				848228051E84090F00711F72 /* HomeViewController.h */,
+				848228061E84090F00711F72 /* HomeViewController.m */,
+				848228081E8415E500711F72 /* BackgroundViewController.h */,
+				848228091E8415E500711F72 /* BackgroundViewController.m */,
+				848258B01E843EF40013C09D /* SizeViewController.h */,
+				848258B11E843EF40013C09D /* SizeViewController.m */,
+				848258B31E844B1A0013C09D /* DesignViewController.h */,
+				848258B41E844B1A0013C09D /* DesignViewController.m */,
+				848258B61E84629B0013C09D /* InputTextViewController.h */,
+				848258B71E84629B0013C09D /* InputTextViewController.m */,
+				848258E01E84BE840013C09D /* ChooseFontViewController.h */,
+				848258E11E84BE840013C09D /* ChooseFontViewController.m */,
+				848258E91E85236B0013C09D /* ChooseColorViewController.h */,
+				848258EA1E85236B0013C09D /* ChooseColorViewController.m */,
+				848258EC1E854DFA0013C09D /* ShareViewController.h */,
+				848258ED1E854DFA0013C09D /* ShareViewController.m */,
+				842E6FA41E933EA60029F2B5 /* ShopViewController.h */,
+				842E6FA51E933EA60029F2B5 /* ShopViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		848228041E8408AB00711F72 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8482280C1E8417AE00711F72 /* BackgroundCollectionViewCell.h */,
+				8482280D1E8417AE00711F72 /* BackgroundCollectionViewCell.m */,
+				848258AD1E8439950013C09D /* SizeTableViewCell.h */,
+				848258AE1E8439950013C09D /* SizeTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		848258B91E84AA530013C09D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				848258BA1E84AA530013C09D /* CloudLayoutOperation.h */,
+				848258BB1E84AA530013C09D /* CloudLayoutOperation.m */,
+				848258BE1E84AA530013C09D /* QuadTree.h */,
+				848258BF1E84AA530013C09D /* QuadTree.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		848258C01E84AA530013C09D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				848258C11E84AA530013C09D /* _LALTopic.h */,
+				848258C21E84AA530013C09D /* _LALTopic.m */,
+				848258C31E84AA530013C09D /* _LALVersion.h */,
+				848258C41E84AA530013C09D /* _LALVersion.m */,
+				848258C51E84AA530013C09D /* _LALWord.h */,
+				848258C61E84AA530013C09D /* _LALWord.m */,
+				848258C71E84AA530013C09D /* CloudWord.h */,
+				848258C81E84AA530013C09D /* CloudWord.m */,
+				848258C91E84AA530013C09D /* LALTopic.h */,
+				848258CA1E84AA530013C09D /* LALTopic.m */,
+				848258CB1E84AA530013C09D /* LALVersion.h */,
+				848258CC1E84AA530013C09D /* LALVersion.m */,
+				848258CD1E84AA530013C09D /* LALWord.h */,
+				848258CE1E84AA530013C09D /* LALWord.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		848258D91E84AABA0013C09D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				848258E31E8521EF0013C09D /* RGSColorSlider.h */,
+				848258E41E8521EF0013C09D /* RGSColorSlider.m */,
+				848258E51E8521EF0013C09D /* RGSPreviewView.h */,
+				848258E61E8521EF0013C09D /* RGSPreviewView.m */,
+				848258DA1E84AABA0013C09D /* UIColor+CloudSettings.h */,
+				848258DB1E84AABA0013C09D /* UIColor+CloudSettings.m */,
+				848258DC1E84AABA0013C09D /* UIFont+CloudSettings.h */,
+				848258DD1E84AABA0013C09D /* UIFont+CloudSettings.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		848258EF1E855F940013C09D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842E6FA71E933FCE0029F2B5 /* WebKit.framework */,
+				848258F01E855F940013C09D /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848227CC1E84039A00711F72 /* cloud font */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848227FA1E84039A00711F72 /* Build configuration list for PBXNativeTarget "cloud font" */;
+			buildPhases = (
+				848227C91E84039A00711F72 /* Sources */,
+				848227CA1E84039A00711F72 /* Frameworks */,
+				848227CB1E84039A00711F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cloud font";
+			productName = "cloud font";
+			productReference = 848227CD1E84039A00711F72 /* cloud font.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848227E51E84039A00711F72 /* cloud fontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848227FD1E84039A00711F72 /* Build configuration list for PBXNativeTarget "cloud fontTests" */;
+			buildPhases = (
+				848227E21E84039A00711F72 /* Sources */,
+				848227E31E84039A00711F72 /* Frameworks */,
+				848227E41E84039A00711F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848227E81E84039A00711F72 /* PBXTargetDependency */,
+			);
+			name = "cloud fontTests";
+			productName = "cloud fontTests";
+			productReference = 848227E61E84039A00711F72 /* cloud fontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848227F01E84039A00711F72 /* cloud fontUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848228001E84039A00711F72 /* Build configuration list for PBXNativeTarget "cloud fontUITests" */;
+			buildPhases = (
+				848227ED1E84039A00711F72 /* Sources */,
+				848227EE1E84039A00711F72 /* Frameworks */,
+				848227EF1E84039A00711F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848227F31E84039A00711F72 /* PBXTargetDependency */,
+			);
+			name = "cloud fontUITests";
+			productName = "cloud fontUITests";
+			productReference = 848227F11E84039A00711F72 /* cloud fontUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848227C51E84039A00711F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Elane Hy";
+				TargetAttributes = {
+					848227CC1E84039A00711F72 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 87XWV95QTM;
+						ProvisioningStyle = Manual;
+					};
+					848227E51E84039A00711F72 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 848227CC1E84039A00711F72;
+					};
+					848227F01E84039A00711F72 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 848227CC1E84039A00711F72;
+					};
+				};
+			};
+			buildConfigurationList = 848227C81E84039A00711F72 /* Build configuration list for PBXProject "cloud font" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848227C41E84039A00711F72;
+			productRefGroup = 848227CE1E84039A00711F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848227CC1E84039A00711F72 /* cloud font */,
+				848227E51E84039A00711F72 /* cloud fontTests */,
+				848227F01E84039A00711F72 /* cloud fontUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848227CB1E84039A00711F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848227E01E84039A00711F72 /* LaunchScreen.storyboard in Resources */,
+				848227DD1E84039A00711F72 /* Assets.xcassets in Resources */,
+				848227DB1E84039A00711F72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848227E41E84039A00711F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848227EF1E84039A00711F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848227C91E84039A00711F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848258D11E84AA530013C09D /* QuadTree.m in Sources */,
+				848258D41E84AA530013C09D /* _LALWord.m in Sources */,
+				8482280A1E8415E500711F72 /* BackgroundViewController.m in Sources */,
+				848258CF1E84AA530013C09D /* CloudLayoutOperation.m in Sources */,
+				848258E81E8521EF0013C09D /* RGSPreviewView.m in Sources */,
+				848227D51E84039A00711F72 /* AppDelegate.m in Sources */,
+				848258B81E84629B0013C09D /* InputTextViewController.m in Sources */,
+				848258D21E84AA530013C09D /* _LALTopic.m in Sources */,
+				848258D31E84AA530013C09D /* _LALVersion.m in Sources */,
+				848258B51E844B1A0013C09D /* DesignViewController.m in Sources */,
+				842E6FA61E933EA60029F2B5 /* ShopViewController.m in Sources */,
+				848258E71E8521EF0013C09D /* RGSColorSlider.m in Sources */,
+				848258D51E84AA530013C09D /* CloudWord.m in Sources */,
+				848258D81E84AA530013C09D /* LALWord.m in Sources */,
+				848258AF1E8439950013C09D /* SizeTableViewCell.m in Sources */,
+				848258B21E843EF40013C09D /* SizeViewController.m in Sources */,
+				848258E21E84BE840013C09D /* ChooseFontViewController.m in Sources */,
+				8482280E1E8417AE00711F72 /* BackgroundCollectionViewCell.m in Sources */,
+				848227D21E84039A00711F72 /* main.m in Sources */,
+				848258EE1E854DFA0013C09D /* ShareViewController.m in Sources */,
+				848258D71E84AA530013C09D /* LALVersion.m in Sources */,
+				848258DF1E84AABA0013C09D /* UIFont+CloudSettings.m in Sources */,
+				848258D61E84AA530013C09D /* LALTopic.m in Sources */,
+				848258EB1E85236B0013C09D /* ChooseColorViewController.m in Sources */,
+				848228071E84090F00711F72 /* HomeViewController.m in Sources */,
+				848258DE1E84AABA0013C09D /* UIColor+CloudSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848227E21E84039A00711F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848227EB1E84039A00711F72 /* cloud_fontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848227ED1E84039A00711F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848227F61E84039A00711F72 /* cloud_fontUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848227E81E84039A00711F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848227CC1E84039A00711F72 /* cloud font */;
+			targetProxy = 848227E71E84039A00711F72 /* PBXContainerItemProxy */;
+		};
+		848227F31E84039A00711F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848227CC1E84039A00711F72 /* cloud font */;
+			targetProxy = 848227F21E84039A00711F72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848227D91E84039A00711F72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848227DA1E84039A00711F72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848227DE1E84039A00711F72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848227DF1E84039A00711F72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848227F81E84039A00711F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848227F91E84039A00711F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848227FB1E84039A00711F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Elaine Heney (87XWV95QTM)";
+				DEVELOPMENT_TEAM = 87XWV95QTM;
+				INFOPLIST_FILE = "cloud font/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudfont.cloud-font";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "51920ebd-973e-448d-8ff4-1365e92bd9b7";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		848227FC1E84039A00711F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Elaine Heney (87XWV95QTM)";
+				DEVELOPMENT_TEAM = 87XWV95QTM;
+				INFOPLIST_FILE = "cloud font/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudfont.cloud-font";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "51920ebd-973e-448d-8ff4-1365e92bd9b7";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		848227FE1E84039A00711F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cloud fontTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudfont.cloud-fontTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloud font.app/cloud font";
+			};
+			name = Debug;
+		};
+		848227FF1E84039A00711F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cloud fontTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudfont.cloud-fontTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloud font.app/cloud font";
+			};
+			name = Release;
+		};
+		848228011E84039A00711F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cloud fontUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudfont.cloud-fontUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cloud font";
+			};
+			name = Debug;
+		};
+		848228021E84039A00711F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cloud fontUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudfont.cloud-fontUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cloud font";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848227C81E84039A00711F72 /* Build configuration list for PBXProject "cloud font" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848227F81E84039A00711F72 /* Debug */,
+				848227F91E84039A00711F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848227FA1E84039A00711F72 /* Build configuration list for PBXNativeTarget "cloud font" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848227FB1E84039A00711F72 /* Debug */,
+				848227FC1E84039A00711F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848227FD1E84039A00711F72 /* Build configuration list for PBXNativeTarget "cloud fontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848227FE1E84039A00711F72 /* Debug */,
+				848227FF1E84039A00711F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848228001E84039A00711F72 /* Build configuration list for PBXNativeTarget "cloud fontUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848228011E84039A00711F72 /* Debug */,
+				848228021E84039A00711F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848227C51E84039A00711F72 /* Project object */;
+}
